@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -63,27 +61,27 @@ export default function Navbar() {
         )}
 
         <div className="hidden font-poppins text-white sm:flex sm:justify-between sm:items-center  ">
-          <h1 className="font-semibold text-xl cursor-pointer box-shadow  shadow-white ">Portfolio</h1>
+          <h1 className="font-semibold text-3xl duration-500  glow cursor-pointer ">Portfolio</h1>
           <ul className="text-white flex space-x-14 ">
             <li>
-              <a href="/">Projects</a>
+              <a className="hover:border-b-4 duration-75 hover:border-white" href="/">Projects</a>
             </li>
             <li>
-              <a href="/">Technologies</a>
+              <a className="hover:border-b-4 duration-75 hover:border-white" href="/">Technologies</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a className="hover:border-b-4 duration-75 hover:border-white" href="/">About</a>
             </li>
           </ul>
           <div className="logos flex space-x-4">
-            <a href="https://twitter.com">
-              <FontAwesomeIcon className="h-7" icon={faSquareTwitter} />
+            <a href="https://twitter.com" target="_blank">
+              <FontAwesomeIcon className="h-7 " icon={faSquareTwitter} />
             </a>
-            <a href="https://twitter.com">
-              <FontAwesomeIcon className="h-7" icon={faSquareFacebook} />
+            <a href="https://twitter.com" target="_blank">
+              <FontAwesomeIcon className="h-7 " icon={faSquareFacebook} />
             </a>
-            <a href="https://twitter.com">
-              <FontAwesomeIcon className="h-7" icon={faSquareInstagram} />
+            <a href="https://twitter.com" target="_blank">
+              <FontAwesomeIcon className="h-7 " icon={faSquareInstagram} />
             </a>
           </div>
         </div>
@@ -91,4 +89,3 @@ export default function Navbar() {
     </>
   );
 }
->>>>>>> 54e7f93 (Changes to the navbar)
