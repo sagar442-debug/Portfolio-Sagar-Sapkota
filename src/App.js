@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="bg-[#0f1724] h-full w-full absolute -z-10 font-poppins"></div>
-      <div className="mx-6 pt-5">
+      <div className="mx-6 pt-5 sm:px-10">
         <Navbar />
         <MidSection />
 

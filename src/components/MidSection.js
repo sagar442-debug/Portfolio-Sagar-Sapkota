@@ -22,14 +22,14 @@ export default function MidSection() {
             advancements.
           </p>
           <div className="button mt-10">
-            <button className="p-3 bg-[#478fce] rounded-2xl hover:bg-white hover:text-[#2d3843] duration-500">
+            <button className="p-3 bg-[#478fce] rounded-2xl hover:bg-white hover:text-[#2d3843] duration-500 sm:text-xl">
               Download CV
             </button>
           </div>
         </div>
       </div>
       <div className="image-section">
-
+        <div className="circle1 absolute hover:h-32 duration-150 hover:w-32 h-64 animate-bounce w-64 bg-[#478fce]  top-[30rem] right-20 rounded-full"></div>
       </div>
     </div>
   );
