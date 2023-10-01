@@ -28,7 +28,7 @@ export default function MidSection() {
           </div>
         </div>
       </div>
-      <div className="image-section">
+      <div className="image-section hidden sm:block">
         <div className="circle1 absolute hover:h-32 duration-150 hover:w-32 h-64 animate-bounce w-64 bg-[#478fce]  top-[30rem] right-20 rounded-full"></div>
       </div>
     </div>

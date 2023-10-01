@@ -26,7 +26,7 @@ export default function Navbar() {
             ham === true ? "border-b border-slate-700" : ""
           }`}
         >
-          <h1 className="cursor-pointer text-2xl font-semibold  ">Portfolio</h1>
+          <h1 className="cursor-pointer text-4xl font-semibold  ">Portfolio</h1>
           <div onClick={onClickHam} className="hamLogo cursor-pointer">
             <FontAwesomeIcon icon={faBars} />
           </div>
